@@ -1,0 +1,381 @@
+
+  body{
+    margin:0;
+    padding:0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+    #topbar{
+      width:1200px;
+      margin:0 auto;
+      height:40px;
+    }
+
+    #logo{
+      width:7%;
+      height: 60%;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      float: left;
+      /* margin-right: 8px; */
+    }
+
+    .topbar_section{
+      float: left;
+      border-left: 1px #CCCCCC solid;
+      height:100%;
+      margin-left: 8px;
+    }
+
+    #signin_div{
+      width: 160px;;
+    }
+
+    #signin_image{
+
+      width: 22px;
+      margin: 10px;
+      float: left;
+    }
+
+    #signin_txt{
+      font-weight: bold;
+      font-size: 90%;
+      position: relative;
+      top: 11px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .topbar_menu{
+      /* width: 70px; */
+      font-weight: bold;
+      font-size: 90%;
+      padding: 13px 7px 0 14px;
+      height: 27px;
+      text-align: center;
+    }
+
+    .top_menu{
+      text-decoration: none;
+      color: black;
+    }
+
+    #more_arrow{
+      margin-left: 40px;
+      margin-bottom: 2px;
+    }
+
+    #searchbox{
+      background-color: #E4E4E4;
+      border: none;
+      padding: 5px;
+      margin: 7px 0 7px 15px;
+      font-weight: bold;
+      float: left;
+    }
+
+    #search{
+      margin: 7px 0 7px 0;
+      height: 26px;
+    }
+
+    .clear{
+      clear: both;
+    }
+
+    #menu_bar_container{
+      background-color: #BB1919;
+      width: 100%;
+      height: 70px;
+      border-top: 1px solid #CCCCCC
+    }
+
+    #menu_bar{
+      width:1200px;
+      margin:0 auto;
+    }
+
+    h1{
+      padding: 0;
+      margin: 0;
+      color: white;
+      font-size: 40px;
+      font-weight: normal;
+      padding-top: 8px;
+      float: left;
+    }
+
+    #menu_container{
+      background-color: #BB1919;
+      width: 100%;
+    }
+
+    #menu{
+      width:1200px;
+      margin:0 auto;
+      height: 42px;
+    }
+
+    #menu a{
+      color: white;
+      text-decoration: none;
+      padding: 0 10px;
+      border-right: 1.5px solid #BB4545;
+      font-size: 15px;
+      position: relative;
+      top: 8px;
+    }
+
+    #menu_home{
+      padding-left: 0 !important;
+    }
+
+    .no_border{
+      border: none !important;
+    }
+
+    #down_arrow{
+      height: 10px;
+      width: 10px;
+      position: relative;
+      top: 7px;
+      right:10px;
+    }
+
+    #page_container{
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    h2{
+      font-weight: normal;
+      margin-top: 40px;
+      font-size: 20px;
+      border-bottom: 3px solid #BB1919;
+      width: 45px;
+    }
+
+    h3{
+      margin-top: 0;
+    }
+
+    h3 a{
+      color: black;
+      font-size: 30px;
+      text-decoration: none;
+    }
+
+    h3 a:hover{
+      color: #43789e;
+      text-decoration:underline;
+
+    }
+
+    #article_container{
+      float: left;
+      width: 600px;
+      border-right:1px solid #CCCCCC;
+    }
+
+    #article1_summary{
+      color: #5A5A5A;
+      float: left;
+    }
+
+    #article1_summary1{
+      font-size: 15px;
+      float: left;
+    }
+
+    #article1_summary img{
+      height: 15px;
+      position: relative;
+      top: 2px;
+      float: left;
+    }
+
+    #article1_summary a{
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      border-left: 1px solid #CCCCCC;
+      padding-left: 6px;
+    }
+
+    #article1_summary a:hover{
+      color: #43789e;
+      text-decoration:underline;
+
+    }
+
+    .date{
+      padding-right: 6px;
+      font-size: 14px;
+      padding-left: 6px;
+    }
+
+    #article1_img{
+      width: 550px;;
+    }
+
+    #article1_hr{
+      color:#BB1919;
+      width: 100px;
+
+    }
+
+    #article_right_container{
+      width: 590px;
+      float: left;
+    }
+
+    .article_right{
+      float: left;
+      padding: 10px 20px;
+      width: 250px;
+      color: #5A5A5A;
+      font-size: 15px;
+
+    }
+
+
+    .article_right_img{
+      width: 250px;
+    }
+
+    .clock{
+      height: 15px;
+      position: relative;
+      top: 2px;
+      float: left;
+    }
+
+    .article_right a{
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      border-left: 1px solid #CCCCCC;
+      padding-left: 6px;
+    }
+
+    .article_right a:hover{
+      color: #43789e;
+      text-decoration:underline;
+
+    }
+
+    #article3_container{
+      float: left;
+      border-top:1px solid #CCCCCC;
+      width: 100%;
+    }
+
+    .article3{
+      float: left;
+      padding: 20px 20px;
+      width: 260px;
+      color: #5A5A5A;
+      font-size: 15px;
+
+    }
+
+
+    .article3_img{
+      width: 270px;
+    }
+
+    .article3 a{
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      border-left: 1px solid #CCCCCC;
+      padding-left: 6px;
+    }
+
+    .article3 a:hover{
+      color: #43789e;
+      text-decoration:underline;
+
+    }
+
+    /* .left_pad{
+      padding-left: 0 !important;
+    } */
+
+    /*.right_pad{
+      padding-right: 0 !important;
+    } */
+
+    .sub_headings{
+      font-size: 30px;
+      position: relative;
+      top: 32px;
+      background-color: white;
+      padding-right: 15px;
+    }
+
+    #watch_listen{
+      float: left;
+      width: 100%;
+    }
+
+    .watch_listen{
+      float: left;
+      padding: 20px 20px;
+      width: 260px;
+      color: #5A5A5A;
+      font-size: 15px;
+
+    }
+
+
+    .watch_listen_img{
+      width: 270px;
+    }
+
+    .watch_listen a{
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      border-left: 1px solid #CCCCCC;
+      padding-left: 6px;
+    }
+
+    .watch_listen a:hover{
+      color: #43789e;
+      text-decoration:underline;
+
+    }
+
+    #feature_analysis{
+      float: left;
+      width: 100%;
+    }
+
+    .feature_analysis{
+      float: left;
+      padding: 20px 20px;
+      width: 260px;
+      color: #5A5A5A;
+      font-size: 15px;
+
+    }
+
+
+    .feature_analysis_img{
+      width: 270px;
+    }
+
+    .feature_analysis a{
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      border-left: 1px solid #CCCCCC;
+      padding-left: 6px;
+    }
+
+    .feature_analysis a:hover{
+      color: #43789e;
+      text-decoration:underline;
+
+    }
